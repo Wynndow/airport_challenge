@@ -1,12 +1,15 @@
-This is my solution to the Makers Academy week one weekend challenge, 'Airport Challenge'.
+##Airport Challenge
 
-The aim of the challenge was to model an airport and planes, and to allow planes to land/take off from the airport. In addition, weather conditions needed to be taken into account with a random 'stormy' condition which prevented landing/take_off.
+#### About
 
-I used TDD to complete this challenge. The full instructions provided to complete this challenge can be seen at the bottom of this readme.
+The aim of the challenge was to model an airport and planes, and to allow planes to land/take off from the airport. In addition, weather conditions needed to be taken into account with a random 'stormy' condition which prevented landing/take_off. This was done using Ruby, and test driven with RSpec.
 
-UPDATE: The implementation of the application has been changed such that planes are now instructed to land, instead of airports telling planes to land.
+#### Installation
 
-Below is an updated pry transcript to show how it works.
+0. Clone this repo using ```$ git clone git@github.com:Wynndow/airport-challenge.git```
+0. Move into the new directory using ```$ cd airport-challenge```
+
+#### Usage
 
 ```
 [1] pry(main)> require './lib/airport.rb'
@@ -29,7 +32,11 @@ Below is an updated pry transcript to show how it works.
 => #<Plane:0x007fad222a6dc8 @airport_at=:not_in_airport, @flying=true>
 ```
 
+#### Running tests
 
+0. Tests are run form the command line using ```$ rspec```
+
+#### Original instructions
 
 Airport Challenge
 =================
